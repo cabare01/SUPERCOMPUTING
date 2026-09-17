@@ -1,3 +1,4 @@
+
 #Assignment 3
 #Catherine Bare
 #9/15/26
@@ -11,17 +12,15 @@ wget https://gzahn.github.io/data/GCF_000001735.4_TAIR10.1_genomic.fna.gz
 gunzip GCF_000001735.4_TAIR10.1_genomic.fna.gz
 ll (to confirm fasta file presence in right format)
 
-grep '^>' GCF_000001735.4_TAIR10.1_genomic.fna | wc -l
-grep -v '^>' GCF_000001735.4_TAIR10.1_genomic.fna | tr -d '\n' | wc -c
-wc -l GCF_000001735.4_TAIR10.1_genomic.fna
-grep '^>' GCF_000001735.4_TAIR10.1_genomic.fna | grep 'mitochondrion' | wc -l
-grep '^>' GCF_000001735.4_TAIR10.1_genomic.fna | grep 'chromosome' | wc -l
+grep '^>' GCF_000001735.4_TAIR10.1_genomic.fna | wc -l 		#7
+grep -v '^>' GCF_000001735.4_TAIR10.1_genomic.fna | tr -d '\n' | wc -c   	#119,668,634
+wc -l GCF_000001735.4_TAIR10.1_genomic.fna   	#14
+grep '^>' GCF_000001735.4_TAIR10.1_genomic.fna | grep 'mitochondrion' | wc -l   	#1
+grep '^>' GCF_000001735.4_TAIR10.1_genomic.fna | grep 'chromosome' | wc -l   	#5
 head -n 6 GCF_000001735.4_TAIR10.1_genomic.fna
-head -n 2 GCF_000001735.4_TAIR10.1_genomic.fna | grep -v '^>' | wc -c
-head -n 4 GCF_000001735.4_TAIR10.1_genomic.fna | grep -v '^>' | tail -n 1 | wc -c
-head -n 6 GCF_000001735.4_TAIR10.1_genomic.fna | grep -v '^>' | tail -n 1 | wc -c
-grep -n '^>' GCF_000001735.4_TAIR10.1_genomic.fna
-head -n 10 GCF_000001735.4_TAIR10.1_genomic.fna
+head -n 2 GCF_000001735.4_TAIR10.1_genomic.fna | grep -v '^>' | wc -c   	#30,427,672
+head -n 4 GCF_000001735.4_TAIR10.1_genomic.fna | grep -v '^>' | tail -n 1 | wc -c   	#19,698,290
+head -n 6 GCF_000001735.4_TAIR10.1_genomic.fna | grep -v '^>' | tail -n 1 | wc -c  	#23,459,831
 grep -n '^>' GCF_000001735.4_TAIR10.1_genomic.fna
 head -n 10 GCF_000001735.4_TAIR10.1_genomic.fna
 head -n 10 GCF_000001735.4_TAIR10.1_genomic.fna | grep -v '^>' | tail -n 1 | tr -d '\n' | wc -c
@@ -29,11 +28,11 @@ head -n 10 GCF_000001735.4_TAIR10.1_genomic.fna | grep '^>'
 head -n 9 GCF_000001735.4_TAIR10.1_genomic.fna | tail -n 2
 head -n 10 GCF_000001735.4_TAIR10.1_genomic.fna | tail -n 1 | wc -c
 grep -n 'chromosome 5' GCF_000001735.4_TAIR10.1_genomic.fna
-head -n 10 GCF_000001735.4_TAIR10.1_genomic.fna | tail -n 1 | tr -d '\n' | wc -c
-grep 'AAAAAAAAAAAAAAAA' GCF_000001735.4_TAIR10.1_genomic.fna | grep -v '^>' | wc -l
+head -n 10 GCF_000001735.4_TAIR10.1_genomic.fna | tail -n 1 | tr -d '\n' | wc -c   	#26,975,503
+grep 'AAAAAAAAAAAAAAAA' GCF_000001735.4_TAIR10.1_genomic.fna | grep -v '^>' | wc -l   	#1
 grep '^>' GCF_000001735.4_TAIR10.1_genomic.fna
 grep '^>' GCF_000001735.4_TAIR10.1_genomic.fna | sort
-grep '^>' GCF_000001735.4_TAIR10.1_genomic.fna | sort | head -n 1
+grep '^>' GCF_000001735.4_TAIR10.1_genomic.fna | sort | head -n 1   	#NC_000932.1 Arabidopsis thaliana chloroplast, complete genome
 paste -	- < GCF_000001735.4_TAIR10.1_genomic.fna > GCF_000001735.4_TAIR10.1_genomic.tsv
 head GCF_000001735.4_TAIR10.1_genomic.tsv
 cd ..
