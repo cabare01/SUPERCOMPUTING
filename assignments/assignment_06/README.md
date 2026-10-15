@@ -232,10 +232,11 @@ echo "Flye assignment pipeline completed.
 
 #REFLECTION:
 One of the biggest challenges I encountered during this assignment was getting the Flye installation and assembly pipeline to work reliably on Bora. 
-I initially had trouble with the Miniforge/Conda portion of the workflow because my remote connection to Bora would repeatedly drop when I reached that step. 
+I encountered the same issue across all three Flye methods (Conda, module, and local installations), even with attempting to run my 3 individual scripts multiple times each both on the W&M network and through the W&M VPN from home. 
+In every case, the pipeline consistently stopped at the consensus stage immediately after `INFO: Running Minimap2`, followed by the SSH connection to Bora being closed by the remote host.
 This made it difficult to determine whether the problem was related to the installation process, the environment configuration, or the connection itself. 
-I also encountered Conda package-cache lock warnings during installation, which added another layer of troubleshooting. 
-Although the installation eventually completed and Flye reported version 2.9.6, the repeated disconnections made it difficult to run and verify the entire workflow consistently.
+I also encountered Conda package-cache lock warnings during installation before I even got to running Flye in the different ways, which added another layer of troubleshooting. 
+Although the installation eventually completed and Flye reported version 2.9.6, the repeated disconnections made it impossible to run and verify the entire workflow consistently, and I did not have enough time before the assignment was due to submit the pipeline to SLURM instead of just working on the login node.
 Working through these issues helped me better understand the differences between installing software in a Conda environment, loading software through an HPC module, and compiling software locally.
 Ideally for the future, any modules I would want to work with are pre-loaded on already since this avoids some of the setup required for a separate Conda environment or local build, but I do appreciate the range provided by being able to use different methods. 
 Overall, this assignment gave me more experience managing software and dependencies on a shared computing cluster, troubleshooting remote execution issues, and designing reproducible workflows.
