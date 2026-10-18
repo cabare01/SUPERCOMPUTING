@@ -1,0 +1,32 @@
+Module Flye run complete.
+[2026-10-18 00:16:51] root: INFO: Assembly statistics:
+
+	Total length:	91713
+	Fragments:	2
+	Fragments N50:	47428
+	Largest frg:	47428
+	Scaffolds:	0
+	Mean coverage:	422
+
+[2026-10-18 00:16:51] root: INFO: Final assembly: /sciclone/home/cabare01/SUPERCOMPUTING/assignments/assignment_06/assemblies/assembly_conda/assembly.fasta
+[2026-10-18 15:51:51] root: INFO: Assembly statistics:
+
+	Total length:	91713
+	Fragments:	2
+	Fragments N50:	47428
+	Largest frg:	47428
+	Scaffolds:	0
+	Mean coverage:	422
+
+[2026-10-18 15:51:51] root: INFO: Final assembly: /sciclone/home/cabare01/SUPERCOMPUTING/assignments/assignment_06/assemblies/assembly_module/assembly.fasta
+[2026-10-18 00:21:18] root: INFO: Assembly statistics:
+
+	Total length:	91713
+	Fragments:	2
+	Fragments N50:	47428
+	Largest frg:	47428
+	Scaffolds:	0
+	Mean coverage:	422
+
+[2026-10-18 00:21:18] root: INFO: Final assembly: /sciclone/home/cabare01/SUPERCOMPUTING/assignments/assignment_06/assemblies/assembly_local/assembly.fasta
+Flye assignment pipeline completed
