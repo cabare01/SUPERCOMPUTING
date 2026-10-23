@@ -1,0 +1,395 @@
+java -ea  --add-modules jdk.incubator.vector -Xmx20g -Xms20g -cp /sciclone/home/cabare01/.conda/envs/bbmap-env/opt/bbmap-40.02-0/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 -Xmx20g path=/sciclone/home/cabare01/scr10/assignment_07/bbmap_index build=1 in1=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064761_1.fastq.gz in2=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064761_2.fastq.gz out=/sciclone/home/cabare01/scr10/assignment_07/SRR19064761.sam minid=0.95 idfilter=0.95 threads=8 overwrite=t
+WARNING: Using incubator modules: jdk.incubator.vector
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, -Xmx20g, path=/sciclone/home/cabare01/scr10/assignment_07/bbmap_index, build=1, in1=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064761_1.fastq.gz, in2=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064761_2.fastq.gz, out=/sciclone/home/cabare01/scr10/assignment_07/SRR19064761.sam, minid=0.95, idfilter=0.95, threads=8, overwrite=t]
+Version 40.02
+
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	2.495 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	18.806 seconds.
+Analyzed Index:   	9.629 seconds.
+Started output stream:	0.155 seconds.
+Cleared Memory:    	0.119 seconds.
+Processing reads in paired-ended mode.
+Started read stream.
+Started 8 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	16000
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	24455828	(3641196186 bases)
+
+Mapping:          	1326.505 seconds.
+Reads/sec:       	18436.28
+kBases/sec:      	2744.95
+
+
+Pairing data:   	pct pairs	num pairs 	pct bases	   num bases
+
+mated pairs:     	  0.0009% 	      116 	  0.0007% 	       26214
+bad pairs:       	  0.0000% 	        5 	  0.0000% 	         832
+insert size avg: 	  199.79
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0013% 	      161 	  0.0009% 	       17266
+unambiguous:     	  0.0003% 	       31 	  0.0001% 	        2142
+ambiguous:       	  0.0011% 	      130 	  0.0008% 	       15124
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  0.0005% 	       59 	  0.0004% 	        6905
+semiperfect site:	  0.0005% 	       59 	  0.0004% 	        6905
+rescued:         	  0.0001% 	        8
+
+Match Rate:      	      NA 	       NA 	 98.6170% 	       17042
+Error Rate:      	 62.5767% 	      102 	  1.3830% 	         239
+Sub Rate:        	 60.7362% 	       99 	  1.2268% 	         212
+Del Rate:        	  0.6135% 	        1 	  0.0868% 	          15
+Ins Rate:        	  3.6810% 	        6 	  0.0694% 	          12
+N Rate:          	  0.0000% 	        0 	  0.0000% 	           0
+
+
+Read 2 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0042% 	      511 	  0.0038% 	       69212
+unambiguous:     	  0.0019% 	      231 	  0.0018% 	       32006
+ambiguous:       	  0.0023% 	      280 	  0.0020% 	       37206
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  0.0007% 	       81 	  0.0005% 	        9538
+semiperfect site:	  0.0007% 	       81 	  0.0005% 	        9538
+rescued:         	  0.0000% 	        6
+
+Match Rate:      	      NA 	       NA 	 98.0630% 	       67890
+Error Rate:      	 83.0116% 	      430 	  1.9327% 	        1338
+Sub Rate:        	 82.8185% 	      429 	  1.8879% 	        1307
+Del Rate:        	  0.7722% 	        4 	  0.0274% 	          19
+Ins Rate:        	  1.3514% 	        7 	  0.0173% 	          12
+N Rate:          	  0.3861% 	        2 	  0.0043% 	           3
+
+Total time:     	1357.961 seconds.
+java -ea  --add-modules jdk.incubator.vector -Xmx20g -Xms20g -cp /sciclone/home/cabare01/.conda/envs/bbmap-env/opt/bbmap-40.02-0/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 -Xmx20g path=/sciclone/home/cabare01/scr10/assignment_07/bbmap_index build=1 in1=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064769_1.fastq.gz in2=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064769_2.fastq.gz out=/sciclone/home/cabare01/scr10/assignment_07/SRR19064769.sam minid=0.95 idfilter=0.95 threads=8 overwrite=t
+WARNING: Using incubator modules: jdk.incubator.vector
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, -Xmx20g, path=/sciclone/home/cabare01/scr10/assignment_07/bbmap_index, build=1, in1=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064769_1.fastq.gz, in2=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064769_2.fastq.gz, out=/sciclone/home/cabare01/scr10/assignment_07/SRR19064769.sam, minid=0.95, idfilter=0.95, threads=8, overwrite=t]
+Version 40.02
+
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	2.461 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	21.226 seconds.
+Analyzed Index:   	9.415 seconds.
+Started output stream:	0.069 seconds.
+Cleared Memory:    	0.118 seconds.
+Processing reads in paired-ended mode.
+Started read stream.
+Started 8 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	16000
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	24637800	(3679824050 bases)
+
+Mapping:          	1584.403 seconds.
+Reads/sec:       	15550.22
+kBases/sec:      	2322.53
+
+
+Pairing data:   	pct pairs	num pairs 	pct bases	   num bases
+
+mated pairs:     	  0.0000% 	        5 	  0.0000% 	         958
+bad pairs:       	  0.0000% 	        0 	  0.0000% 	           0
+insert size avg: 	  213.60
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0001% 	        8 	  0.0000% 	         830
+unambiguous:     	  0.0000% 	        3 	  0.0000% 	         381
+ambiguous:       	  0.0000% 	        5 	  0.0000% 	         449
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  0.0000% 	        2 	  0.0000% 	         200
+semiperfect site:	  0.0000% 	        2 	  0.0000% 	         200
+rescued:         	  0.0000% 	        1
+
+Match Rate:      	      NA 	       NA 	 98.5560% 	         819
+Error Rate:      	 75.0000% 	        6 	  1.4440% 	          12
+Sub Rate:        	 75.0000% 	        6 	  1.3237% 	          11
+Del Rate:        	 12.5000% 	        1 	  0.1203% 	           1
+Ins Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+N Rate:          	  0.0000% 	        0 	  0.0000% 	           0
+
+
+Read 2 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0047% 	      581 	  0.0048% 	       87455
+unambiguous:     	  0.0031% 	      384 	  0.0031% 	       57912
+ambiguous:       	  0.0016% 	      197 	  0.0016% 	       29543
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  0.0001% 	       12 	  0.0001% 	        1812
+semiperfect site:	  0.0001% 	       12 	  0.0001% 	        1812
+rescued:         	  0.0000% 	        1
+
+Match Rate:      	      NA 	       NA 	 97.8232% 	       85563
+Error Rate:      	 97.4315% 	      569 	  2.1757% 	        1903
+Sub Rate:        	 97.4315% 	      569 	  2.1517% 	        1882
+Del Rate:        	  1.0274% 	        6 	  0.0137% 	          12
+Ins Rate:        	  1.0274% 	        6 	  0.0103% 	           9
+N Rate:          	  0.1712% 	        1 	  0.0011% 	           1
+
+Total time:     	1617.948 seconds.
+java -ea  --add-modules jdk.incubator.vector -Xmx20g -Xms20g -cp /sciclone/home/cabare01/.conda/envs/bbmap-env/opt/bbmap-40.02-0/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 -Xmx20g path=/sciclone/home/cabare01/scr10/assignment_07/bbmap_index build=1 in1=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064771_1.fastq.gz in2=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064771_2.fastq.gz out=/sciclone/home/cabare01/scr10/assignment_07/SRR19064771.sam minid=0.95 idfilter=0.95 threads=8 overwrite=t
+WARNING: Using incubator modules: jdk.incubator.vector
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, -Xmx20g, path=/sciclone/home/cabare01/scr10/assignment_07/bbmap_index, build=1, in1=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064771_1.fastq.gz, in2=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064771_2.fastq.gz, out=/sciclone/home/cabare01/scr10/assignment_07/SRR19064771.sam, minid=0.95, idfilter=0.95, threads=8, overwrite=t]
+Version 40.02
+
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	2.464 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	22.424 seconds.
+Analyzed Index:   	9.642 seconds.
+Started output stream:	0.099 seconds.
+Cleared Memory:    	0.119 seconds.
+Processing reads in paired-ended mode.
+Started read stream.
+Started 8 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	16000
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	25317334	(3770378582 bases)
+
+Mapping:          	1355.581 seconds.
+Reads/sec:       	18676.38
+kBases/sec:      	2781.38
+
+
+Pairing data:   	pct pairs	num pairs 	pct bases	   num bases
+
+mated pairs:     	  0.0002% 	       20 	  0.0002% 	        6040
+bad pairs:       	  0.0000% 	        0 	  0.0000% 	           0
+insert size avg: 	  256.95
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0002% 	       28 	  0.0002% 	        3650
+unambiguous:     	  0.0002% 	       21 	  0.0002% 	        3057
+ambiguous:       	  0.0001% 	        7 	  0.0000% 	         593
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  0.0001% 	       15 	  0.0001% 	        2265
+semiperfect site:	  0.0001% 	       15 	  0.0001% 	        2265
+rescued:         	  0.0000% 	        0
+
+Match Rate:      	      NA 	       NA 	 99.4521% 	        3630
+Error Rate:      	 46.4286% 	       13 	  0.5479% 	          20
+Sub Rate:        	 46.4286% 	       13 	  0.5479% 	          20
+Del Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+Ins Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+N Rate:          	  0.0000% 	        0 	  0.0000% 	           0
+
+
+Read 2 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0050% 	      633 	  0.0050% 	       95145
+unambiguous:     	  0.0033% 	      415 	  0.0033% 	       62557
+ambiguous:       	  0.0017% 	      218 	  0.0017% 	       32588
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  0.0001% 	       15 	  0.0001% 	        2265
+semiperfect site:	  0.0001% 	       15 	  0.0001% 	        2265
+rescued:         	  0.0000% 	        0
+
+Match Rate:      	      NA 	       NA 	 97.7499% 	       93010
+Error Rate:      	 96.8652% 	      618 	  2.2501% 	        2141
+Sub Rate:        	 96.7085% 	      617 	  2.2343% 	        2126
+Del Rate:        	  0.6270% 	        4 	  0.0063% 	           6
+Ins Rate:        	  1.2539% 	        8 	  0.0095% 	           9
+N Rate:          	  0.0000% 	        0 	  0.0000% 	           0
+
+Total time:     	1390.573 seconds.
+java -ea  --add-modules jdk.incubator.vector -Xmx20g -Xms20g -cp /sciclone/home/cabare01/.conda/envs/bbmap-env/opt/bbmap-40.02-0/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 -Xmx20g path=/sciclone/home/cabare01/scr10/assignment_07/bbmap_index build=1 in1=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064776_1.fastq.gz in2=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064776_2.fastq.gz out=/sciclone/home/cabare01/scr10/assignment_07/SRR19064776.sam minid=0.95 idfilter=0.95 threads=8 overwrite=t
+WARNING: Using incubator modules: jdk.incubator.vector
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, -Xmx20g, path=/sciclone/home/cabare01/scr10/assignment_07/bbmap_index, build=1, in1=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064776_1.fastq.gz, in2=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064776_2.fastq.gz, out=/sciclone/home/cabare01/scr10/assignment_07/SRR19064776.sam, minid=0.95, idfilter=0.95, threads=8, overwrite=t]
+Version 40.02
+
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	2.841 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	28.118 seconds.
+Analyzed Index:   	9.379 seconds.
+Started output stream:	0.149 seconds.
+Cleared Memory:    	0.117 seconds.
+Processing reads in paired-ended mode.
+Started read stream.
+Started 8 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	16000
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	24731416	(3706881072 bases)
+
+Mapping:          	1476.730 seconds.
+Reads/sec:       	16747.42
+kBases/sec:      	2510.20
+
+
+Pairing data:   	pct pairs	num pairs 	pct bases	   num bases
+
+mated pairs:     	  0.0000% 	        4 	  0.0000% 	         752
+bad pairs:       	  0.0000% 	        1 	  0.0000% 	          68
+insert size avg: 	  150.00
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0002% 	       20 	  0.0001% 	        2461
+unambiguous:     	  0.0001% 	       10 	  0.0001% 	        1510
+ambiguous:       	  0.0001% 	       10 	  0.0001% 	         951
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  0.0000% 	        4 	  0.0000% 	         273
+semiperfect site:	  0.0000% 	        4 	  0.0000% 	         273
+rescued:         	  0.0000% 	        0
+
+Match Rate:      	      NA 	       NA 	 97.3994% 	        2397
+Error Rate:      	 80.0000% 	       16 	  2.6006% 	          64
+Sub Rate:        	 80.0000% 	       16 	  2.6006% 	          64
+Del Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+Ins Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+N Rate:          	  0.0000% 	        0 	  0.0000% 	           0
+
+
+Read 2 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0045% 	      554 	  0.0045% 	       83309
+unambiguous:     	  0.0028% 	      348 	  0.0028% 	       52548
+ambiguous:       	  0.0017% 	      206 	  0.0017% 	       30761
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  0.0001% 	        7 	  0.0001% 	         948
+semiperfect site:	  0.0001% 	        7 	  0.0001% 	         948
+rescued:         	  0.0000% 	        1
+
+Match Rate:      	      NA 	       NA 	 97.8107% 	       81490
+Error Rate:      	 98.0287% 	      547 	  2.1893% 	        1824
+Sub Rate:        	 98.0287% 	      547 	  2.1725% 	        1810
+Del Rate:        	  0.5376% 	        3 	  0.0060% 	           5
+Ins Rate:        	  1.4337% 	        8 	  0.0108% 	           9
+N Rate:          	  0.0000% 	        0 	  0.0000% 	           0
+
+Total time:     	1517.589 seconds.
+java -ea  --add-modules jdk.incubator.vector -Xmx20g -Xms20g -cp /sciclone/home/cabare01/.conda/envs/bbmap-env/opt/bbmap-40.02-0/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 -Xmx20g path=/sciclone/home/cabare01/scr10/assignment_07/bbmap_index build=1 in1=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064996_1.fastq.gz in2=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064996_2.fastq.gz out=/sciclone/home/cabare01/scr10/assignment_07/SRR19064996.sam minid=0.95 idfilter=0.95 threads=8 overwrite=t
+WARNING: Using incubator modules: jdk.incubator.vector
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, -Xmx20g, path=/sciclone/home/cabare01/scr10/assignment_07/bbmap_index, build=1, in1=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064996_1.fastq.gz, in2=/sciclone/home/cabare01/scr10/assignment_07/data/SRR19064996_2.fastq.gz, out=/sciclone/home/cabare01/scr10/assignment_07/SRR19064996.sam, minid=0.95, idfilter=0.95, threads=8, overwrite=t]
+Version 40.02
+
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	2.516 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	19.853 seconds.
+Analyzed Index:   	9.385 seconds.
+Started output stream:	1.552 seconds.
+Cleared Memory:    	0.118 seconds.
+Processing reads in paired-ended mode.
+Started read stream.
+Started 8 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	16000
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	21765268	(3147107882 bases)
+
+Mapping:          	1408.221 seconds.
+Reads/sec:       	15455.87
+kBases/sec:      	2234.81
+
+
+Pairing data:   	pct pairs	num pairs 	pct bases	   num bases
+
+mated pairs:     	  0.0002% 	       22 	  0.0001% 	        4532
+bad pairs:       	  0.0000% 	        3 	  0.0000% 	         224
+insert size avg: 	  178.18
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0004% 	       44 	  0.0003% 	        4482
+unambiguous:     	  0.0001% 	       10 	  0.0001% 	         875
+ambiguous:       	  0.0003% 	       34 	  0.0002% 	        3607
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  0.0001% 	       14 	  0.0001% 	        1584
+semiperfect site:	  0.0001% 	       14 	  0.0001% 	        1584
+rescued:         	  0.0000% 	        1
+
+Match Rate:      	      NA 	       NA 	 97.7318% 	        4395
+Error Rate:      	 66.6667% 	       30 	  2.2682% 	         102
+Sub Rate:        	 66.6667% 	       30 	  1.9346% 	          87
+Del Rate:        	  2.2222% 	        1 	  0.3336% 	          15
+Ins Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+N Rate:          	  0.0000% 	        0 	  0.0000% 	           0
+
+
+Read 2 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0034% 	      369 	  0.0034% 	       54009
+unambiguous:     	  0.0020% 	      220 	  0.0021% 	       32577
+ambiguous:       	  0.0014% 	      149 	  0.0014% 	       21432
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  0.0002% 	       21 	  0.0002% 	        2502
+semiperfect site:	  0.0002% 	       21 	  0.0002% 	        2502
+rescued:         	  0.0000% 	        1
+
+Match Rate:      	      NA 	       NA 	 97.7438% 	       52809
+Error Rate:      	 94.0541% 	      348 	  2.2562% 	        1219
+Sub Rate:        	 94.0541% 	      348 	  2.2137% 	        1196
+Del Rate:        	  1.0811% 	        4 	  0.0352% 	          19
+Ins Rate:        	  0.8108% 	        3 	  0.0074% 	           4
+N Rate:          	  0.0000% 	        0 	  0.0000% 	           0
+
+Total time:     	1441.885 seconds.
